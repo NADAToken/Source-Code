@@ -7,7 +7,7 @@ contract Token {
     mapping(address => mapping(address => uint)) public allowance;
     
     uint public totalSupply = 212600000 * 10 ** 10;
-    string public name = "NADA Token";
+    string public name = "Nada";
     string public symbol = "NDA";
     uint public decimals = 10;
     
